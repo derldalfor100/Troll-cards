@@ -189,7 +189,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"./book.png":[["/Troll-cards/book.7a672482.png","book.png"],"book.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
+},{"./book.png":[["book.7a672482.png","book.png"],"book.png"],"_css_loader":"../../../../AppData/Roaming/npm/node_modules/parcel/src/builtins/css-loader.js"}],"app.js":[function(require,module,exports) {
 "use strict";
 
 require("./style.sass");
