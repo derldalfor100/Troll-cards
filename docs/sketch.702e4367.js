@@ -58241,7 +58241,7 @@ World.prototype.clearForces = function(){
 (2)
 });
 },{}],"sq.jpg":[function(require,module,exports) {
-module.exports = "/sq.41bb09f4.jpg";
+module.exports = "/Troll-cards/sq.41bb09f4.jpg";
 },{}],"sketch.js":[function(require,module,exports) {
 "use strict";
 

@@ -24,70 +24,70 @@ body {
 
 .img:nth-child(1) {
   clip-path: circle(15% at 50% 50%);
-  transform: rotate(112.2753223755deg);
+  transform: rotate(82.4200415417deg);
   z-index: 99;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(2) {
   clip-path: circle(30% at 50% 50%);
-  transform: rotate(60.9682119211deg);
+  transform: rotate(85.4458662423deg);
   z-index: 98;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(3) {
   clip-path: circle(45% at 50% 50%);
-  transform: rotate(50.3147904483deg);
+  transform: rotate(93.2235668034deg);
   z-index: 97;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(4) {
   clip-path: circle(60% at 50% 50%);
-  transform: rotate(105.0516164354deg);
+  transform: rotate(61.2340115624deg);
   z-index: 96;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(5) {
   clip-path: circle(75% at 50% 50%);
-  transform: rotate(21.8802043446deg);
+  transform: rotate(115.781520872deg);
   z-index: 95;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(6) {
   clip-path: circle(90% at 50% 50%);
-  transform: rotate(17.1449235346deg);
+  transform: rotate(115.6792760597deg);
   z-index: 94;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(7) {
   clip-path: circle(105% at 50% 50%);
-  transform: rotate(44.690828756deg);
+  transform: rotate(86.8893740913deg);
   z-index: 93;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(8) {
   clip-path: circle(120% at 50% 50%);
-  transform: rotate(70.3413040564deg);
+  transform: rotate(99.3926345869deg);
   z-index: 92;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(9) {
   clip-path: circle(135% at 50% 50%);
-  transform: rotate(17.5471583193deg);
+  transform: rotate(49.4089653637deg);
   z-index: 91;
   transition: transform 0.3s ease-in-out;
 }
 
 .img:nth-child(10) {
   clip-path: circle(150% at 50% 50%);
-  transform: rotate(57.7906975651deg);
+  transform: rotate(107.6967628231deg);
   z-index: 90;
   transition: transform 0.3s ease-in-out;
 }
