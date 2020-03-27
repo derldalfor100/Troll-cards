@@ -698,7 +698,7 @@ class SketchTrollCards extends SketchManyCards {
 
         const surfaceGeometry = new THREE.PlaneBufferGeometry(5, 20, 32);
 
-        const surfaceMaterial = new THREE.MeshBasicMaterial({ wireframe: false, color: 0x000000, side: THREE.DoubleSide });
+        const surfaceMaterial = new THREE.MeshBasicMaterial({ wireframe: false, color: 0x000000, side: THREE.DoubleSide, opacity: 0, transparent: true });
 
         this.plane = new THREE.Mesh(surfaceGeometry, surfaceMaterial);
 

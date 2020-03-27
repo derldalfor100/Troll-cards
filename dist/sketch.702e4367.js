@@ -58906,7 +58906,9 @@ var SketchTrollCards = /*#__PURE__*/function (_SketchManyCards) {
       var surfaceMaterial = new THREE.MeshBasicMaterial({
         wireframe: false,
         color: 0x000000,
-        side: THREE.DoubleSide
+        side: THREE.DoubleSide,
+        opacity: 0,
+        transparent: true
       });
       this.plane = new THREE.Mesh(surfaceGeometry, surfaceMaterial);
       this.scene.add(this.plane);
@@ -58950,7 +58952,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "63599" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "65065" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
