@@ -1,0 +1,99 @@
+body {
+  background: grey;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.book {
+  width: 700px;
+  height: 700px;
+  background: #1c1c1c;
+  position: relative;
+  overflow: hidden;
+}
+
+.img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: url(/book.7a672482.png) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.img:nth-child(1) {
+  clip-path: circle(15% at 50% 50%);
+  transform: rotate(112.2753223755deg);
+  z-index: 99;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(2) {
+  clip-path: circle(30% at 50% 50%);
+  transform: rotate(60.9682119211deg);
+  z-index: 98;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(3) {
+  clip-path: circle(45% at 50% 50%);
+  transform: rotate(50.3147904483deg);
+  z-index: 97;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(4) {
+  clip-path: circle(60% at 50% 50%);
+  transform: rotate(105.0516164354deg);
+  z-index: 96;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(5) {
+  clip-path: circle(75% at 50% 50%);
+  transform: rotate(21.8802043446deg);
+  z-index: 95;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(6) {
+  clip-path: circle(90% at 50% 50%);
+  transform: rotate(17.1449235346deg);
+  z-index: 94;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(7) {
+  clip-path: circle(105% at 50% 50%);
+  transform: rotate(44.690828756deg);
+  z-index: 93;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(8) {
+  clip-path: circle(120% at 50% 50%);
+  transform: rotate(70.3413040564deg);
+  z-index: 92;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(9) {
+  clip-path: circle(135% at 50% 50%);
+  transform: rotate(17.5471583193deg);
+  z-index: 91;
+  transition: transform 0.3s ease-in-out;
+}
+
+.img:nth-child(10) {
+  clip-path: circle(150% at 50% 50%);
+  transform: rotate(57.7906975651deg);
+  z-index: 90;
+  transition: transform 0.3s ease-in-out;
+}
+
+.book:hover .img {
+  transform: rotate(0);
+}
+
+/*# sourceMappingURL=/app.c328ef1a.css.map */

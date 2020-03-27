@@ -1,0 +1,1 @@
+{"version":3,"sources":["sketchBox.js"],"names":[],"mappings":"AAAA;AAEA;AAEA;AAEA;AAEA","file":"sketchBox.11817b89.js","sourceRoot":"..","sourcesContent":["// import Sketch from \"./sketch\";\r\n\r\n// export class SketchBox extends Sketch {\r\n\r\n// }\r\n\r\n// const sketch = new SketchBox();\r\n\r\n// sketch.initialize(\"containerBox\");"]}
